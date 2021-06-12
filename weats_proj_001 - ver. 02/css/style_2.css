@@ -1,0 +1,138 @@
+* {
+  /* universal __WATCH*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-attachment: fixed;
+}
+.logo {
+  width: 150px;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffbc40;
+  padding: 15px 0px;
+  font-size: 2rem;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+}
+/* footer */
+.footer {
+  background-color: lawngreen var(--cor-bg);
+  color: #0a0a0a;
+  padding: 30px 0;
+}
+
+.container-footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.informacoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.informacoes a {
+  display: block;
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+}
+
+.meios-comunicacao img {
+  width: 50px;
+  margin: 30px 10px;
+}
+
+.meios-comunicacao .btn {
+  background-color: rgb(139, 138, 138);
+  padding: 10px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+.meios-comunicacao a {
+  display: inline;
+  text-decoration: none;
+  color: #0a0909;
+  border-radius: 5px;
+}
+.meios-comunicacao a {
+  text-decoration: none;
+  color: #161515;
+  border-radius: 5px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* contactos, enviar msg */
+.form {
+  width: 100%;
+}
+.form input,
+textarea {
+  width: 70%;
+  height: 50px;
+  padding-left: 30px;
+  margin: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(80, 80, 80);
+}
+.form textarea {
+  height: 150px;
+  padding-top: 10px;
+}
+.form .botao {
+  color: #fff;
+  background-color: orange;
+  padding: 10px 15px;
+  /* text-align: center; */
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 1%;
+
+  width: 70%;
+}
+.top_form {
+  margin: 10px 19px;
+  /* display: flex; */
+  /* gap: 40%;
+     margin-top: 20px; */
+}
+.top_form_right {
+  /* display: flex; */
+  margin: 10px 19px;
+}
+
+.preencher {
+  margin: 10px 19px;
+}
+
+/* alterar tamanho cartoes */
+
+.full_wrap {
+  display: flex;
+}
+/* .titulo {
+  text-align: center;
+} */
+.wrapper_right img {
+  width: 250px;
+  height: 250px;
+  justify-content: center;
+}
+.wrapper_right {
+  text-align: center;
+}
